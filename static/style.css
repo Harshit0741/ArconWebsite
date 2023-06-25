@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=Share+Tech&family=Ubuntu:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Share Tech', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#navbar {
+    background-color: aqua;
+}
+
+#navbar li a {
+    text-decoration: none;
+    color: gray;
+    padding: 2px 14px;
+}
+
+#navbar li a:hover {
+    background-color: gray;
+    color: aliceblue;
+    padding: 2px 14px;
+    border-radius: 18px;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 20px 25px;
+    font-size: 25px;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+#logo img {
+    height: 65px;
+    border-radius: 35px;
+    margin: 5px 18px;
+}
+
+#introSec {
+    background-color: red;
+    height: 425px;
+    background: center/cover no-repeat url("/static/22539.jpg");
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+}
+
+#sponsSec {
+    background-color: rgb(149, 211, 211);
+    height: 300px;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding: 12px 1px;
+    font-size: 25px */
+}
+
+#sponsSec h2{
+    text-align: center;
+    font-size: 42px;
+    padding-top: 12px;
+} 
+
+#spons{
+    height: 130px;
+    width: 538px;
+    margin: 35px 742px;
+}
+
+.spImg{
+    margin: 20px;
+    padding: 2px 4px;
+    height: 80%;
+}
+
+#missionSec {
+    height: 300px;
+}
+
+#missionSec h3 {
+    text-align: center;
+    padding-top: 12px;
+    font-size: 35px;
+}
+
+.card {
+    border: 2px solid rgb(149, 211, 211);
+    background-color: rgb(206, 231, 231);
+    border-radius: 10px;
+    display: inline-block;
+    width: 30%;
+    margin: 23px 30px;
+    height: 200px;
+}
+
+.card h4 {
+    text-align: center;
+    margin: 2px;
+    font-size: 33px
+}
+
+.card-cont{
+    padding: 60px 0px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.card-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img {
+    height: 100px;
+    padding: 0 35px;
+}
+
+.card-img img {
+    height: inherit;
+}
+
+#footer {
+    background-color: black;
+    height: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    font-size: 13px;
+}

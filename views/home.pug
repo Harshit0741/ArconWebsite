@@ -1,0 +1,44 @@
+extends base.pug
+
+block scripts
+    script(src='/static/index.js')
+
+block style 
+    style
+      include ../static/style.css
+
+block content
+
+
+    section#introSec
+        div Wlecome!!  
+        div Lorem ipsum dolor sit amet consectetur.
+    section#missionSec 
+        h3 Sale
+        div.card 
+            h4 Shirts
+            div.card-box
+                div.card-img
+                    img(src="/static/1.jpg")
+                div.card-cont   
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        div.card 
+            h4 Tees
+            div.card-box
+                div.card-img
+                    img(src="/static/2.jpg")
+                div.card-cont    
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        div.card 
+            h4 Hoodies
+            div.card-box
+                div.card-img
+                    img(src="/static/3.jpg")
+                div.card-cont    
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    section#sponsSec
+        h2 Our Sponsors
+        div#spons
+            img(src="static/4.jpg", class="spImg", id="Img4")
+            img(src="static/6.png", class="spImg")
+            img(src="static/7.png", class="spImg")
